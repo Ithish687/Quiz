@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.container{
+    margin: 10px;
+    background-color: #fff;
+    height: 100vh;
+    border-radius: 20px;
+}
+.inner-container{
+    background-color: #f2f1ef;
+    height: 100%;
+    width: 80%;
+    margin-left: 20%;
+    border-radius: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    padding: 21px;
+}
+
+.name1{
+    margin-top:90px;
+    margin-left:0px;
+    border:0.5px solid gray;
+    background-color:rgb(224,224,224);
+    padding:10px;
+    width: 120px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius:6px;
+    /* background-image: url('./btn.PNG'); */
+    
+}
+
+.name2{
+    margin-top:30px;
+    margin-left:0px;
+    border:2px solid gray;
+    background-color:rgb(224,224,224);
+    padding:10px;
+    width: 120px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius:6px;
+}
+
+.name3{
+    margin-top:30px;
+    margin-left:0px;
+    border:2px solid gray;
+    background-color:rgb(224,224,224);
+    padding:10px;
+    width: 120px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius:6px;
+}
+.name4{
+    margin-top:30px;
+    margin-left:0px;
+    border:2px solid gray;
+    background-color:rgb(224,224,224);
+    padding:10px;
+    width: 120px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius:6px;
+}
+
+.item1,.item2,.item3{
+    border-radius: 20px;
+    margin: 0.9%;
+}
+.item1{
+    height: 60%;
+    width: 32%;
+    background-color: #101322;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin: 0px; */
+}
+.Perform{
+    display: flex;
+    /* justify-content: space-between; */
+    margin:30px 10px 0px;
+    /* margin-top: 20px; */
+}
+
+.Perform i{
+    margin-left: 160px;
+}
+.percent{
+    font-size: 35px;
+}
+.info p{
+    margin: 35px;
+}
+.info p i{
+    margin: 5px;
+}
+.item2{
+    height: 60%;
+    width: 64%;
+    background-color: #95cfda;
+    background: url(./calender1.jpg)bottom/cover no-repeat;
+    /* background-image: linear-gradient(to left bottom, #9bcfd9, #acd8d4, #c1e0d3, #d7e6d6, #eaedde); */
+    /* margin-left: ; */
+}
+.navbar{
+    display: flex;
+    /* padding: 10px; */
+    /* justify-content: space-around; */
+}
+.navbar p{
+    padding-top: 30px;
+    padding-left: 5%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar p:hover{
+    text-decoration: underline #be6951;
+}
+.top{
+    padding-left: 40%;
+    padding-top: 30px;
+}
+select{
+    background-color: #101322;
+    color: #fff;
+    border-radius: 8px;
+    width: 70px;
+    height: 30px;
+}
+
+.item3{
+    height: 35%;
+    width: 98%;
+    background-color: #d9bda8;
+    display: flex;
+    
+}
+.box1,.box2,.box3,.box3,.box4,.box5{
+    background-color:  #faf4f0;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin: 20.5px;
+    z-index: 0;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-weight: 700;
+    box-shadow: 10px 10px 25px 1px black;
+    /* padding-left: 20px; */
+}
+.box1 h3,.box2 h3,.box3 h3,.box4 h3{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.box1-1 i,.box2-2 i,.box3-3 i,.box4-4 i{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    padding-left: 11px;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+.footer-item1{
+    margin:30px;
+    padding-top: 20px;
+}
+.footer-item1 p{
+    flex-wrap: wrap;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.footer-item2{
+    display: flex;
+    margin: 25px;
+    margin-left: 60px;
+}
+.box5{
+    /* background-image: linear-gradient(to right top, #9bcfd9, #acd8d4, #c1e0d3, #d7e6d6, #eaedde); */
+    background-image: linear-gradient(to bottom, #9bcfd9, #acd8d4, #c1e0d3, #d7e6d6, #eaedde);
+}
+.profile{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    align-items: center;
+}
+.image{
+    /* margin-top: 100px;
+    margin-left: 40px; */
+    height: 150px;
+    width: 150px;
+    background: url(https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg) center/contain no-repeat ;
+    border-radius: 50%;
+}
+
+.fst{
+     margin-left:120px;
+}
+
+.down{
+    margin-top:20px;
+}
+
+/* .name{
+    padding-left: 60px;
+    padding-top: 260px;
+} */
+/* .designation{
+    padding-left: 40px;
+} */
+
